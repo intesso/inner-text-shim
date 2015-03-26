@@ -8,6 +8,9 @@ if you need a polyfill, use: [innerText-polyfill](https://github.com/duckinator/
 
 # usage
 
+all innerText does is get the `el.innerText` from the `element`, even when the browser does not support it.
+you can't set the `innerText` with this module.
+
 ```js
 var innerText = require('inner-text-shim');
 var el = document.querySelector('body');

@@ -1,6 +1,6 @@
 {
   "name": "inner-text-shim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "innerText shim for browsers, that don't support it.",
   "main": "index.js",
   "scripts": {
