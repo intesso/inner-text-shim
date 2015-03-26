@@ -10,24 +10,18 @@ if you need a polyfill, use: [innerText-polyfill](https://github.com/duckinator/
 
 ```js
 var innerText = require('inner-text-shim');
-
-
 var el = document.querySelector('body');
-
 el.innerHTML = '<p>hello</p><br/>welt'
-
 
 var text = innerText(el)
 
-/* text:
 
+/* text ->
 "hello
 
 
 welt"
-
 /*
-
 ```
 
 # license
